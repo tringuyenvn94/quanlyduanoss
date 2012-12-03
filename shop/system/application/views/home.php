@@ -14,7 +14,7 @@
 		<td width="175" rowspan="3">
 			<div class="noidung" align="center">
 			
-			<?php echo anchor(base_url()."viewcart", "Giỏ hàng")?> <br />
+			<?php echo anchor(base_url()."index.php/viewcart", "Giỏ hàng")?> <br />
 			<?php 
 			if($this->cart->total_items()>0)
 			{
