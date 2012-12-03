@@ -1,0 +1,191 @@
+body {
+	margin:auto;
+	font-family:"Times New Roman", Times, serif;
+	color:#666;
+	font-size: 12px;
+	text-decoration: none;
+	background-image:url(../images/bg.jpg);
+	
+	
+	background-position:center;
+	background-attachment: fixed;
+	
+}
+
+a {
+	font-family:"Times New Roman", Times, serif;
+	color:#666;
+	font-size: 13px;
+	text-decoration:none;		
+}
+
+a:visited {
+font-family:"Times New Roman", Times, serif;
+	font-size: 13px;
+	text-decoration:none;
+	
+}
+a:hover {
+	font-family:"Times New Roman", Times, serif;
+	color:#F09;	
+}
+
+img {
+	
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+p {
+	margin:5px;
+}
+
+table{
+font-family:"Times New Roman", Times, serif;
+	color:#F9F;
+	font-size:12px;
+	text-decoration: none;
+}
+
+form{
+	margin:0px;
+font-family:"Times New Roman", Times, serif;
+	color:black;
+	font-size:12px;
+	text-decoration: none;
+}
+
+input, select, textarea{
+font-family:"Times New Roman", Times, serif;
+	color:black;
+	font-size: 12px;
+	background-color:pink;
+	border:1px solid #607697; padding-left:1px;
+}
+
+.menu_ngang{
+ height:20px; font-family:"Times New Roman", Times, serif; font-size:11px; font-weight:bold; color:pink; padding-left:3px; text-transform:uppercase;
+}
+
+.subcat_menu {
+font-family:"Times New Roman", Times, serif;	color:#F09;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.tieude
+{
+font-family:"Times New Roman", Times, serif;
+font-size:11px; 
+font-weight:bold;
+height:18px;
+padding-top:2px; 
+}
+
+.casi {
+font-family:"Times New Roman", Times, serif;
+	color:#CC99FF;
+	font-size: 10px;
+	font-style:italic;
+	padding-left:12px;
+}		
+
+
+.noidung{border:1px solid #607697; padding-top:5px; padding-left:5px; padding-right:5px; padding-bottom:5px;overflow:hidden}
+.ndphai{
+width:162px;
+overflow:hidden;
+}
+.space{ padding-top:5px;}
+
+.lightwords{ 
+background:#999999;
+color:#F00; 
+}
+
+.error_text {
+     color: #FF0000;
+     text-align: center;
+}
+
+.n_title {	
+	font-weight: bold;
+}
+.ten_sp {
+font-family:"Times New Roman", Times, serif;
+	color:#0FF;	
+	font-weight: bold;
+}
+.gia_sp {
+font-family:"Times New Roman", Times, serif;
+	color:#0FF;
+	font-size: 11px;	
+	font-weight: bold;
+}
+.hinh_sp{ float:left; padding-right:5px;}
+.mota_sp{ text-align:justify;}
+.luot_xem{	font-size:95%; font-style:italic; color:#999999}
+.chitiet_sp{font-size:100%; text-align:justify; padding:5px 3px 5px 2px; color:#333;}
+
+
+
+.sidebarmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font: bold 18px Verdana;
+width: 174px; /* Độ rộng của menu chính */
+} 
+.sidebarmenu ul li{
+position: relative;
+}
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; 
+color:#666;
+text-decoration: none;
+padding: 6px;
+border: 1px solid #778;
+}
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{
+ /*Mầu nền*/
+}
+.sidebarmenu ul li a:visited{
+color: #666;
+}
+.sidebarmenu ul li a:hover{
+	background-color:pink;
+}
+/*Menu con */
+.sidebarmenu ul li ul{
+position: absolute;
+width: 180px; /*độ rộng của menu con */
+top: 0;
+visibility: hidden;
+background-color: pink;
+}
+.sidebarmenu a.subfolderstyle{
+
+}
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }
+/* End */
+
+.boxtrai{float:left;
+width:150px;
+margin-left:50px;
+padding:5px 5px 5px 5px;
+text-align:right;
+}
+
+.boxphai{clear:right;
+padding:5px 5px 5px 5px;
+text-align:left;
+}
+
+
+
+
